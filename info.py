@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
 # Others 
-ALINK = environ.get('ALINK', '@Crunchyrooll_Hindi_Dub_Animes')
+ALINK = environ.get('ALINK', 'Crunchyrooll_Hindi_Dub_Animes')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
