@@ -189,7 +189,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/tsp_backup) ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/tsp_backup") ] ] ),
                 )
             except Exception as e:
                 logger.warning(e, exc_info=True)
