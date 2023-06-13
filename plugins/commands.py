@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
                     InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about'),
                 ],[
-                    InlineKeyboardButton('Anime🧞', url=f"https://t.me/{ALINK}")
+                    InlineKeyboardButton('Anime🧞', url=f"https://t.me/Crunchyrooll_Hindi_Dub_Animes}")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
